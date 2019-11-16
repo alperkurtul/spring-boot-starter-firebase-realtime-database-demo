@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cff5dce-aed3-43e2-84e9-0c6ea0a04bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-starter-firebase-realtime-database-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_alperkurtul_spring_boot_starter_firebase_realtime_database_0_0_8_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6cff5dce-aed3-43e2-84e9-0c6ea0a04bbe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +22,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1TQm1GnRwAFVyDIu5Q1JWKIIW2b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,7 +95,7 @@
       <workItem from="1573593466816" duration="2549000" />
       <workItem from="1573675291841" duration="3550000" />
       <workItem from="1573753024839" duration="4333000" />
-      <workItem from="1573763696369" duration="1316000" />
+      <workItem from="1573763696369" duration="1609000" />
     </task>
     <task id="LOCAL-00001" summary="Upload to repository">
       <created>1573764059550</created>
@@ -103,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573764059550</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload to repository">
+      <created>1573765023851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573765023851</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Upload to repository">
+      <created>1573765227900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573765227900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
