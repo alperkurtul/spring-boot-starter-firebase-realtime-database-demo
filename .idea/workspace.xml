@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cff5dce-aed3-43e2-84e9-0c6ea0a04bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_alperkurtul_spring_boot_starter_firebase_realtime_database_0_0_9_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_alperkurtul_spring_boot_starter_firebase_user_authentication_0_0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/configuration/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/firebase-web-api-key.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_alperkurtul_spring_boot_starter_firebase_realtime_database_1_0_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-starter-firebase-realtime-database-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter-firebase-realtime-database-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restcontroller/FirebaseDbRestcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/restcontroller/FirebaseDbRestcontroller.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -113,7 +106,7 @@
       <workItem from="1573938040684" duration="1179000" />
       <workItem from="1573939225658" duration="506000" />
       <workItem from="1573975382792" duration="4901000" />
-      <workItem from="1573989734543" duration="911000" />
+      <workItem from="1573989734543" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="Upload to repository">
       <created>1573764059550</created>
@@ -143,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573931238347</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Upload to repository">
+      <created>1573999464766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573999464766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
