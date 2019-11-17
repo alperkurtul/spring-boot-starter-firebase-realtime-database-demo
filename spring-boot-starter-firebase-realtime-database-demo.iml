@@ -57,8 +57,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.github.alperkurtul:spring-boot-starter-firebase-realtime-database:1.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.github.alperkurtul:spring-boot-starter-firebase-realtime-database:0.0.9-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20190722" level="project" />
+    <orderEntry type="library" name="Maven: com.github.alperkurtul:spring-boot-starter-firebase-user-authentication:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-swagger2:2.9.2" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.5.20" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-models:1.5.20" level="project" />
