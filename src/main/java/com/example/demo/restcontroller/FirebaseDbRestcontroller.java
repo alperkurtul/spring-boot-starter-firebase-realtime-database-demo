@@ -2,13 +2,9 @@ package com.example.demo.restcontroller;
 
 import com.example.demo.model.Product;
 import com.example.demo.repository.ProductRepository;
-import com.github.alperkurtul.firebaseuserauthentication.bean.FirebaseSignInSignUpResponseBean;
-import com.github.alperkurtul.firebaseuserauthentication.service.UserAuthenticationServiceImpl;
+import com.github.alperkurtul.firebaserealtimedatabase.bean.FirebaseSaveResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class FirebaseDbRestcontroller {
@@ -16,19 +12,33 @@ public class FirebaseDbRestcontroller {
     @Autowired
     private ProductRepository productRepository;
 
-    @Autowired
-    private UserAuthenticationServiceImpl userAuthenticationServiceImpl;
-
     @RequestMapping(value="/read", method = RequestMethod.GET)
-    public Product read(@RequestParam String authkey, @RequestParam String id) {
-
-        FirebaseSignInSignUpResponseBean firebaseSignInSignUpResponseBean = userAuthenticationServiceImpl.signInWithEmailAndPassword("test7@test.com", "test07");
+    public Product read(@RequestParam String authKey, @RequestParam String firebaseId) {
 
         Product product = new Product();
-        product.setAuthKey(firebaseSignInSignUpResponseBean.getIdToken());
-        product.setFirebaseId(id);
+        product.setAuthKey(authKey);
+        product.setFirebaseId(firebaseId);
 
         return productRepository.read(product);
+    }
+
+    @RequestMapping(value="/saveWithRandomId", method = RequestMethod.POST)
+    public FirebaseSaveResponse saveWithRandomId(@RequestParam String authKey, @RequestBody Product requestBody) {
+
+        requestBody.setAuthKey(authKey);
+//        requestBody.setFirebaseId();
+
+        return productRepository.saveWithRandomId(requestBody);
+    }
+
+    @RequestMapping(value="/saveWithSpecificId", method = RequestMethod.POST)
+    public FirebaseSaveResponse saveWithSpecificId(@RequestParam String authKey, @RequestParam String firebaseId, @RequestBody Product requestBody) {
+
+        requestBody.setAuthKey(authKey);
+        requestBody.setFirebaseId(firebaseId);
+
+        return productRepository.saveWithSpecificId(requestBody);
+
     }
 
 }
